@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body id="home" class="open-left">
+        <div id="offcanvas-left" class="hide">
+            <ul>
+                <li><a href="#top" >Top </a></li>
+                <li><a href="#quote" >Quote </a></li>
+                <li><a href="#contact" >Contact Us </a></li>
+                <li><a href="#next.html" >Next Page </a></li>
+            </ul>      
+        </div>
+        <div class="togglebar">
+            <!-- adds the class of hide to .offcanvas.left -->
+            <div class="toggle" onclick="toggleLeft()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="center">
+            <header> 
+            <nav>
+                <ul>
+                    <li><a href="#top" >Top </a></li>
+                    <li><a href="#quote" >Quote </a></li>
+                    <li><a href="#contact" >Contact Us </a></li>
+                    <li><a href="#next.html" >Next Page </a></li>
+                </ul>                
+            </nav>
+            </header>
+            <section>
+                <main id="top">
+                    <article>
+                        <figure>
+                            <img src="https://bloximages.chicago2.vip.townnews.com/tucson.com/content/tncms/assets/v3/editorial/a/a8/aa8a6ed6-609e-5c96-b40c-01e6908e84f8/56b7d3042c4ed.image.jpg" alt="Getting hit in the face with a soccer ball."/>
+                            <figcaption>
+                                <h3> <mark> Enjoy this very unflattering picture of me </mark> (yes that is me being hit in the face with a soccer ball) </h3>
+                            </figcaption>
+                        </figure>
+                        <h1 style="font-size: 3em">Hi nice to meet you my name is Ji</h1>
+                        <!-- use h1-h6 to determine importance not size -->
+                        <p class="box">
+                            <b> This is my first project with iXperience. </b> I've learned so much and I've barely even begun! To break the ice, here is some general info about me: I am a dog person, my favorite color is is green, but not just any green. It is the shade of green that you can find on leaves when the sun filters through them. I am embaressed that the US Men's National Team didn't even qualify for the World Cup. I'm betting that Spain will win. <i> I still don't know what I want to be when I grow up.</i> 
+                            <p>
+                            To learn more about me follow this link <a href="#">Fake Link</a>
+                            </p>
+                        </p>
+                        <blockquote cite="http://www.dawn-productions.com/as-i-see-it/you-miss-100-of-the-shots-you-dont-take" id="quote"/> 
+                            "You miss 100% of the shots you don't take." - Wayne Gretzky
+                        </blockquote>
+                        <table class="styled">
+                            <colgroup>
+                                <col style="background-color: red;">
+                            </colgroup>
+                            <colgroup>
+                                <col style="background-color: red;" span="2">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Email</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>Johnny.doe@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Jane</td>
+                                    <td>Doe</td>
+                                    <td>i_heart_johnny@gmail.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <section id="percent", class="font">
+                            <h3>Bar of Awesome!</h3>
+                            <div class="bar">
+                                <span class="progress"><span>
+                             </div>
+                        </section>
+                    </article>
+                </main>
+                <footer>
+                    <section>
+                        <table class="styled">
+                            <tr>
+                                <th colspan="2">Working Hours</th>
+                            </tr>
+                            <tr>
+                                <td>mon-fri</td>
+                                <td>7am-6pm</td>
+                            </tr>
+                            <tr>
+                                <td>sat-sun</td>
+                                <td>closed</td>
+                            </tr>
+                        </table>
+                        <table class="styled">
+                            <tr>
+                                <th colspan="2">Contact Info</th>
+                            </tr>
+                            <tr>
+                                <td>Cell:</td>
+                                <td>123.345.6789</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td>info@learninghtml.com</td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section>
+                        <form action="/action_page.php" id="contact">
+                            <legend><b>Contact Us</b></legend>
+                            <input type="text" name="fullname" placeholder="Full name">
+                            <input type="text" name="email" placeholder="Email">
+                            <textarea name="msg" placeholder="Write message here"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </section>
+                </footer>
+            </section>          
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
